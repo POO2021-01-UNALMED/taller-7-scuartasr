@@ -18,8 +18,8 @@ public class Fabula extends Escrito {
 	// ================================================================================
 	// Methods
 	
-	public int palabrasTotales(int palabrasPagina) {
-		return this.getPaginas();
+	public int palabrasTotales(int n) {
+		return n * this.getPaginas();
 	}
 
 	public String interpretacion() {

@@ -23,7 +23,7 @@ public class Libro extends Escrito {
 	// Methods
 	
 	public int palabrasTotales(int n) {
-		return 2 * this.getPaginas();
+		return n * 2 * this.getPaginas();
 	}
 	
 	public String interpretacion() {
