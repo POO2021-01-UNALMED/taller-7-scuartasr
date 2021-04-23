@@ -44,7 +44,7 @@ public class TestToString {
 				"La tortuga y la liebre\n" + 
 				"Esopo\n" + 
 				"2\n" + 
-				"no se debe uno burlar de los demás, ni presumir o ser vanidoso";
+				"no se debe uno burlar de los demas, ni presumir o ser vanidoso";
 		boolean ok = false;
 		if (fabula.toString().equals(comp)) {
 			ok = true;
