@@ -23,11 +23,11 @@ public class Alfabeto extends Pictograma {
 	}
 
 	public String interpretacion() {
-		return "hola";
+		return this.interpretacion;
 	}
 	
 	public String toString() {
-		return String.join(" ,", this.getLetras());
+		return String.join(", ", this.getLetras());
 	}
 	
 	// ================================================================================

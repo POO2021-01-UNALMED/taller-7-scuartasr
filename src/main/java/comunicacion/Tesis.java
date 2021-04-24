@@ -34,14 +34,14 @@ public class Tesis extends Escrito {
 	}
 
 	public String toString() {
-		return "\"" + this.getOrigen() + "\n" +
+		return this.getOrigen() + "\n" +
 				this.getTitulo() + "\n" +
 				this.getAutor() + "\n" +
 				this.getPaginas() + "\n" +
 				this.getIdea() + "\n" +
 				this.cantidadArgumentos() + "\n" +
 				this.getConclusion() + "\n" +
-				this.getReferencias() + "\"";
+				this.getReferencias();
 	}
 	
 	// ================================================================================

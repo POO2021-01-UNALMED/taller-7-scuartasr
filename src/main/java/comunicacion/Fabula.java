@@ -27,11 +27,11 @@ public class Fabula extends Escrito {
 	}
 
 	public String toString() {
-	return "\"" + this.getOrigen() + "\n" +
+	return this.getOrigen() + "\n" +
 			this.getTitulo() + "\n" +
 			this.getAutor() + "\n" +
 			this.getPaginas() + "\n" +
-			this.getEnsenanza() + "\"";			
+			this.getEnsenanza();			
 	}
 		
 	// ================================================================================
